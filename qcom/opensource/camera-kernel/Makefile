@@ -3,7 +3,6 @@
 KBUILD_OPTIONS += CAMERA_KERNEL_ROOT=$(shell pwd)
 KBUILD_OPTIONS += KERNEL_ROOT=$(ROOT_DIR)/$(KERNEL_DIR)
 KBUILD_OPTIONS += MODNAME=camera
-KBUILD_OPTIONS += KBUILD_EXTRA_SYMBOLS=$(ANDROID_BUILD_TOP)/out/vendor/qcom/opensource/mmrm-driver/Module.symvers
 
 all: modules
 
