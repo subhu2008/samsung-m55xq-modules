@@ -20,7 +20,7 @@
 #include "cam_sync_api.h"
 
 #if IS_REACHABLE(CONFIG_MSM_GLOBAL_SYNX)
-#include "synx_api.h"
+#include <synx_api.h>
 #endif
 
 #ifdef CONFIG_CAM_SYNC_DBG
